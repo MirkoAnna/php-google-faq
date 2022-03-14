@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.container .header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 15vh;
+    border-bottom: 1px solid black;
+    background-color: white;
+    z-index: 999;
+}
+
+.container .header .header-top {
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    width: 100%;
+    height: 70%;
+}
+
+.container .header a {
+    text-decoration: none;
+    color: black;
+}
+
+.container .header .header-top a {
+    margin-left: 0.5rem;
+    font-size: 140%;
+}
+
+.container .header .header-top .logo {
+    width: 5rem;
+    height: 3rem;
+}
+
+.container .header .links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+
+.container .header .links ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.container .header .links ul li {
+    display: flex;
+    margin: 0 3%;
+    min-width: max-content;
+    height: 100%;
+    list-style: none;
+}
+
+.container .header .links ul li a {
+    height: 100%;
+}
+
+.container .header .links ul li:last-of-type a{
+    color: rgb(52, 83, 255);
+    border-bottom: 2px solid rgb(52, 83, 255);
+}
+
+.container .main .content {
+    padding: 10%;
+}
+
+.container .main .content p {
+    line-height: 1.5;
+}
+.container .main .content p a {
+    color: blue;
+}
