@@ -47,10 +47,6 @@ $faqs = [
     ]
 ];
 
-foreach ($faqs as $key => $faq) {
-
-}
-
 ?>
 
 <!DOCTYPE html>
