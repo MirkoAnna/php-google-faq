@@ -80,7 +80,9 @@
 
 .container .main .content p {
     line-height: 1.5;
+    font-size: 98%;
 }
 .container .main .content p a {
     color: blue;
+    text-decoration: none;
 }
